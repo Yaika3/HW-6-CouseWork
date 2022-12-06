@@ -1,5 +1,29 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+
+
+    public static void PrintM ( int [] m){
+
+        for (int i =0 ; i < m.length ;i++) {
+            if (m[i] % 2 != 0) {
+                m[i] = m[i] + 1;
+            }System.out.println(m[i]);
+        }
+
+
     }
+
+
+
+    public static void main(String[] args) {
+        PrintM( new int[] {1,2,3,4,5,6,7,8});
+
+
+
+
+}
+
+
+
+
 }
