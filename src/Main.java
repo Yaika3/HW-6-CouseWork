@@ -1,14 +1,14 @@
 public class Main {
 
 
-    public static void PrintM(int[] m) {
+    public static void printNumbers(int[] number) {
 
-        for (int i = 0; i < m.length; i++) {
+        for (int i = 0; i < number.length; i++) {
             if (i > 2 && i < 8) {
-                if (m[i] % 2 != 0) {
-                    m[i] = m[i] + 1;
+                if (number[i] % 2 != 0) {
+                    number[i] = number[i] + 1;
                 }
-                System.out.println(m[i]);
+                System.out.println(number[i]);
             }
         }
 
@@ -17,7 +17,7 @@ public class Main {
 
 
         public static void main (String[]args){
-            PrintM(new int[]{1, 2, 3, 4, 5, 6, 7, 8});
+            printNumbers(new int[]{1, 2, 3, 4, 5, 6, 7, 8});
 
 
         }
